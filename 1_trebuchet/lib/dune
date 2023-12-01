@@ -1,7 +1,8 @@
 (include_subdirs unqualified)
 
 (library
- (name day_1_trebuchet_lib)
+ (name trebuchet_lib)
  (inline_tests)
  (preprocess (pps ppx_inline_test))
- (modules extensions ascii))
+ (modules extensions ascii)
+ (libraries stdio))

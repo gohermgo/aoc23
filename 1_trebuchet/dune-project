@@ -1,24 +1,24 @@
 (lang dune 3.12)
 
-(name day_1_trebuchet)
+(name trebuchet)
 
 (generate_opam_files true)
 
 (source
  (github username/reponame))
 
-(authors "Author Name")
+(authors "Herman Gohn")
 
-(maintainers "Maintainer Name")
+(maintainers "Herman Gohn")
 
 (license LICENSE)
 
 (documentation https://url/to/documentation)
 
 (package
- (name day_1_trebuchet)
- (synopsis "A short synopsis")
- (description "A longer description")
+ (name trebuchet)
+ (synopsis "Solution to AoC23 day 1")
+ (description "Just parses some given input data etc etc")
  (depends ocaml dune stdio)
  (tags
   (topics "to describe" your project)))
