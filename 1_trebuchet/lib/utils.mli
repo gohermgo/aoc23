@@ -5,7 +5,7 @@ type log_variant  = [ `Input
 
 val get_log_name : log_variant -> string
 
-val get_log_name : log_variant -> string
+val get_log_path : log_variant -> string
 
 val find_bookend_numbers : string -> string option
 

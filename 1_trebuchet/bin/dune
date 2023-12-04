@@ -1,4 +1,4 @@
 (executable
  (public_name trebuchet)
  (name main)
- (libraries trebuchet_lib stdio))
+ (libraries trebuchet_lib utils stdio))

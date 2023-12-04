@@ -13,7 +13,8 @@ let get_log_name = function
   | `Output -> "output.txt"
   | `Result -> "result.txt"
 
-let get_log_path (target: log_variant) : string = String.concat [log_folder; get_log_name target]
+let get_log_path (target: log_variant) : string = 
+  String.concat [log_folder; get_log_name target]
 
 let find_bookend_numbers (s: string) : string option =
   let num_string = String.filter s ~f:Char.is_digit in
@@ -35,5 +36,7 @@ let sum_to_string : string = let sum = List.fold parse_input ~init:Int64.zero ~f
 
 let generate_log : (_) = function
     | `Input -> raise (Invalid_argument "input log is read only")
-    | `Output -> let content = decode_input in Stdio.Out_channel.write_lines (get_log_path `Output) content
-    | `Result -> let content = sum_to_string in Stdio.Out_channel.write_all (get_log_path `Result) ~data:content
+    | `Output -> let content = decode_input in 
+      Stdio.Out_channel.write_lines (get_log_path `Output) content
+    | `Result -> let content = sum_to_string in 
+      Stdio.Out_channel.write_all (get_log_path `Result) ~data:content

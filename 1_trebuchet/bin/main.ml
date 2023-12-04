@@ -12,9 +12,8 @@ let find_bookend_numbers (s: string) : string option =
       Some(String.of_char_list [first_num_char; last_num_char])
 *)
 let () = 
-
-  let input_lines = Stdio.In_channel.read_lines "input.txt" in
-  let input_number_strings = List.map (List.filter_map input_lines ~f:find_bookend_numbers) ~f:String.strip in
+  (*let input_lines = Stdio.In_channel.read_lines "input.txt" in*)
+  let input_number_strings = List.map (List.filter_map input_lines ~f:Utils.find_bookend_numbers) ~f:String.strip in
   Stdio.Out_channel.write_lines "output.txt" input_number_strings;
 
   let input_numbers = List.map input_number_strings ~f:Int64.of_string in
