@@ -4,5 +4,6 @@
  (name trebuchet_lib)
  (inline_tests)
  (preprocess (pps ppx_inline_test))
- (modules extensions ascii)
+ (modules extensions ascii utils)
  (libraries stdio))
+

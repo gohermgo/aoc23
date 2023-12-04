@@ -1,5 +1,7 @@
 open Base
 open Stdio
+open Trebuchet_lib
+(*
 let find_bookend_numbers (s: string) : string option =
   let num_string = String.filter s ~f:Char.is_digit in
   let string_length = String.length num_string in
@@ -8,7 +10,7 @@ let find_bookend_numbers (s: string) : string option =
     | 1 -> let digit_char = String.get num_string 0 in Some(String.of_char_list [digit_char; digit_char])
     | _ -> let (first_num_char, last_num_char) = (String.get num_string 0, String.get num_string (string_length - 1)) in
       Some(String.of_char_list [first_num_char; last_num_char])
-
+*)
 let () = 
 
   let input_lines = Stdio.In_channel.read_lines "input.txt" in
