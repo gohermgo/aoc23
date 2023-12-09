@@ -1,0 +1,4 @@
+(executable
+ (public_name gear)
+ (name main)
+ (libraries gear stdlib base))

@@ -1,0 +1,8 @@
+lib: [
+  "_build/install/default/lib/gear/META"
+  "_build/install/default/lib/gear/dune-package"
+  "_build/install/default/lib/gear/opam"
+]
+bin: [
+  "_build/install/default/bin/gear"
+]
