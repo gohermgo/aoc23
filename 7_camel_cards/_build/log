@@ -1,0 +1,6 @@
+# dune init project cards
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /home/herm/.cache/dune/db
+# Workspace root: /home/herm/.git/aoc23/cards
+# Auto-detected concurrency: 4

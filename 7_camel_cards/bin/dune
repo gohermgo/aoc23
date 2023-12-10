@@ -1,0 +1,4 @@
+(executable
+ (public_name cards)
+ (name main)
+ (libraries cards core))
