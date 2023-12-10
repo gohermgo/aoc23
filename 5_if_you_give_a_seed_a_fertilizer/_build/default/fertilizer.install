@@ -1,0 +1,8 @@
+lib: [
+  "_build/install/default/lib/fertilizer/META"
+  "_build/install/default/lib/fertilizer/dune-package"
+  "_build/install/default/lib/fertilizer/opam"
+]
+bin: [
+  "_build/install/default/bin/fertilizer"
+]

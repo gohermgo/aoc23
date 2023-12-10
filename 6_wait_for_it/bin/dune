@@ -1,0 +1,4 @@
+(executable
+ (public_name wait)
+ (name main)
+ (libraries wait core))

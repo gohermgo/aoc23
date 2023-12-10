@@ -22,7 +22,7 @@ Result: 142
 ### Part 2
 
 Same as part [Part 1](https://github.com/gohermgo/aoc23/edit/main/README.md#part-1), except now some of the digits are spelled out with actual letters
- - [ ] Solved
+ - [ ] Unsolved
 
 #### Example:
 
@@ -38,15 +38,64 @@ zoneight234|14
 
 Result: 281
 
-## Day 2: TBD
+## Day 2: Cube Conundrum
 
-## Day 3: TBD
+### Part 1
 
-## Day 4: TBD
+ - [x] Solved
 
-## Day 5: TBD
+### Part 2
+ - [x] Solved
 
-## Day 6: TBD
+## Day 3: Gear Ratios
+
+This one was boring
+
+### Part 1
+
+ - [ ] Unsolved
+
+### Part 2
+
+ - [ ] Unsolved
+
+## Day 4: Scratchcards
+
+Not too bad, just a little confusing wording for a normal algorithm
+
+### Part 1
+
+ - [x] Solved
+
+### Part 2
+
+ Here it got unbearable, indexing cards by points etc., waste of time
+
+ - [ ] Unsolved
+
+## Day 5: If You Give A Seed A Fertilized
+
+Not started
+
+### Part 1
+
+ - Not started
+
+### Part 2
+
+ - Not started
+
+## Day 6: Wait For It
+
+Not started
+
+### Part 1
+
+ - Not started
+
+### Part 2
+
+ - Not started
 
 ## Day 7: TBD
 
